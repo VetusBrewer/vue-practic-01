@@ -8,8 +8,8 @@ import {useRoute} from 'vue-router';
 import MainLayout from './layout/MainLayout';
 import AuthLayout from './layout/AuthLayout';
 
-export default {
 
+export default {
   setup() {
     const route = useRoute()
     return {
